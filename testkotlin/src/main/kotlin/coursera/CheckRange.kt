@@ -20,6 +20,15 @@ fun isValidIdentifier(s: String): Boolean {
     return true
 }
 
+fun isValidIdentifierV2(s: String): Boolean {
+    val result = s.getOrNull(0) ?: return false;
+    fun isValidCharacter(c:Char):Boolean =  c.isLetterOrDigit() || c == '_'
+    if(s.isEmpty() || s[0].isDigit()) return false
+    for (ch in s)
+        if(!isValidCharacter(ch)) return false
+    return true
+}
+
 /**
  * repeat - repeats the given number of string
  * by the specified number of times
