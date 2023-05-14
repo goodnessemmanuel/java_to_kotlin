@@ -49,3 +49,17 @@ fun getTotalCharFreqInString(char: Char, string: String) :Int{
         count = if (c == char) count + 1 else count;
     return  count
 }
+
+/**
+ *
+ */
+fun evaluateGuessMainApproach(secret: String, guess: String): Evaluation {
+
+    val rightPositions = secret.zip(guess).count { (s, g) -> s == g }
+
+    val commonLetters = "ABCDEF".sumBy { ch ->
+
+        Math.min(secret.count { it == ch }, guess.count { it == ch })
+    }
+    return Evaluation(rightPositions, commonLetters - rightPositions)
+}
