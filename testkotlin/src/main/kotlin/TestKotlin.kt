@@ -92,4 +92,9 @@ fun main(args: Array<String>) {
 
     println("abc".get(1))
 
+
+    val testStringNullable: String? = null
+
+   val len = testStringNullable?.length
+
 }
