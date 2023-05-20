@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="taxipark.TestTask6ParetoPrinciple" tests="11" skipped="0" failures="0" errors="0" timestamp="2023-05-18T09:40:57" hostname="iMac" time="0.025">
+  <properties/>
+  <testcase name="test1" classname="taxipark.TestTask6ParetoPrinciple" time="0.019"/>
+  <testcase name="test2" classname="taxipark.TestTask6ParetoPrinciple" time="0.001"/>
+  <testcase name="test3" classname="taxipark.TestTask6ParetoPrinciple" time="0.0"/>
+  <testcase name="test4" classname="taxipark.TestTask6ParetoPrinciple" time="0.0"/>
+  <testcase name="test5" classname="taxipark.TestTask6ParetoPrinciple" time="0.001"/>
+  <testcase name="test7" classname="taxipark.TestTask6ParetoPrinciple" time="0.001"/>
+  <testcase name="test8" classname="taxipark.TestTask6ParetoPrinciple" time="0.0"/>
+  <testcase name="test9" classname="taxipark.TestTask6ParetoPrinciple" time="0.001"/>
+  <testcase name="testParetoPrincipleFails" classname="taxipark.TestTask6ParetoPrinciple" time="0.001"/>
+  <testcase name="testParetoPrincipleNoTrips" classname="taxipark.TestTask6ParetoPrinciple" time="0.0"/>
+  <testcase name="testParetoPrincipleSucceeds" classname="taxipark.TestTask6ParetoPrinciple" time="0.0"/>
+  <system-out><![CDATA[ successful driver count is [Driver(name=D-1), Driver(name=D-2)]
+ driver and percentage success: [80.40201005025126, 19.597989949748744]
+ trip total cost 199.0
+ success sum 80.40201005025126
+ 20% of drivers is 1
+ successful driver count is [Driver(name=D-1), Driver(name=D-2)]
+ driver and percentage success: [79.60199004975125, 20.398009950248756]
+ trip total cost 201.0
+ success sum 79.60199004975125
+ 20% of drivers is 1
+ successful driver count is [Driver(name=D-0), Driver(name=D-2), Driver(name=D-3), Driver(name=D-4)]
+ driver and percentage success: [78.40375586854461, 12.206572769953052, 5.39906103286385, 3.9906103286384975]
+ trip total cost 426.0
+ success sum 78.40375586854461
+ 20% of drivers is 1
+ successful driver count is [Driver(name=D-0), Driver(name=D-1), Driver(name=D-3), Driver(name=D-4)]
+ driver and percentage success: [73.91304347826086, 14.416475972540047, 8.237986270022883, 3.4324942791762014]
+ trip total cost 437.0
+ success sum 73.91304347826086
+ 20% of drivers is 1
+ successful driver count is [Driver(name=D-0), Driver(name=D-1)]
+ driver and percentage success: [73.5593220338983, 26.440677966101696]
+ trip total cost 295.0
+ success sum 73.5593220338983
+ 20% of drivers is 1
+ successful driver count is [Driver(name=D-0), Driver(name=D-1), Driver(name=D-3), Driver(name=D-4), Driver(name=D-6), Driver(name=D-7), Driver(name=D-8), Driver(name=D-9)]
+ driver and percentage success: [42.68707482993197, 36.224489795918366, 6.63265306122449, 4.336734693877551, 3.9115646258503403, 3.741496598639456, 1.7857142857142856, 0.6802721088435374]
+ trip total cost 1176.0
+ success sum 78.91156462585033
+ 20% of drivers is 2
+ successful driver count is [Driver(name=D-0), Driver(name=D-1), Driver(name=D-2), Driver(name=D-4), Driver(name=D-5), Driver(name=D-6), Driver(name=D-7), Driver(name=D-8), Driver(name=D-9)]
+ driver and percentage success: [51.684470008216934, 25.80115036976171, 5.751848808545604, 4.272801972062449, 4.19063270336894, 3.8619556285949055, 2.1364009860312243, 1.4790468364831553, 0.8216926869350863]
+ trip total cost 1217.0
+ success sum 77.48562037797865
+ 20% of drivers is 2
+ successful driver count is [Driver(name=D-1), Driver(name=D-4), Driver(name=D-5), Driver(name=D-6), Driver(name=D-7), Driver(name=D-8), Driver(name=D-9), Driver(name=D-10), Driver(name=D-12), Driver(name=D-13), Driver(name=D-14), Driver(name=D-15), Driver(name=D-18), Driver(name=D-19)]
+ driver and percentage success: [28.290766208251473, 24.01768172888016, 14.636542239685657, 11.05108055009823, 3.9783889980353635, 3.9783889980353635, 3.143418467583497, 2.455795677799607, 1.768172888015717, 1.5717092337917484, 1.4734774066797642, 1.3261296660117878, 1.2278978388998034, 1.080550098231827]
+ trip total cost 2036.0
+ success sum 77.99607072691552
+ 20% of drivers is 4
+ successful driver count is [Driver(name=D-1), Driver(name=D-2), Driver(name=D-3)]
+ driver and percentage success: [60.0, 20.0, 20.0]
+ trip total cost 200.0
+ success sum 60.0
+ 20% of drivers is 1
+ successful driver count is [Driver(name=D-1), Driver(name=D-2)]
+ driver and percentage success: [80.0, 20.0]
+ trip total cost 200.0
+ success sum 80.0
+ 20% of drivers is 1
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

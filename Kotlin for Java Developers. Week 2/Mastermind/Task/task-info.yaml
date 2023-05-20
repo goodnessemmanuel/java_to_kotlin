@@ -260,4 +260,8 @@ files:
   learner_created: false
 feedback_link: https://www.coursera.org/learn/kotlin-for-java-developers/programming/vmwVT/mastermind-game/discussions
 status: Unchecked
+feedback:
+  message: "Submission successful, please <a href=\"https://www.coursera.org/learn/kotlin-for-java-developers/programming/vmwVT/mastermind-game/submission\"\
+    >check the status on Coursera</a>"
+  time: "Sat, 13 May 2023 18:53:45 UTC"
 record: -1
